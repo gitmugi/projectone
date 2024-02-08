@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+    min-height: 100vh;
+    text-align: center;
+    background-color: blue;
+}
+
+.top {
+    background-color: #1F2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.box-one {
+    height: 180px;
+    width: 160px;
+    border: 2px solid white;
+
+    border-radius: 8px;
+}
+
+.image {
+    width: 360px;
+    height: auto;
+}
