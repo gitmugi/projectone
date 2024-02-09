@@ -30,15 +30,29 @@ a {
     gap: 20px;
 }
 
-.box-one {
-    height: 180px;
-    width: 160px;
-    border: 2px solid white;
 
-    border-radius: 8px;
+img {
+
+    border-radius: 12px;
+    height: 160px;
+    width: 160px;
+    
+}
+.mid {
+    display: flex;
+    border: 1px solid yellow;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    gap: 48px;
+  
+}
+
+.text {
+    text-align: center;
 }
 
 .image {
-    width: 360px;
-    height: auto;
+    height: 160px;
+    width: 160px;
 }
